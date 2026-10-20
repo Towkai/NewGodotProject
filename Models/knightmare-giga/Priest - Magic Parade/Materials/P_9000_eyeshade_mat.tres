@@ -1,0 +1,11 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://bfjf2uoh0cjp2"]
+
+[ext_resource type="Texture2D" uid="uid://62wo6qw73o6j" path="res://Modles/knightmare-giga/Priest - Magic Parade/GLTF/Eyeshade_col-Eyeshade_alpha.png" id="1_ch2hf"]
+
+[resource]
+resource_name = "P_9000_eyeshade_mat"
+transparency = 4
+albedo_texture = ExtResource("1_ch2hf")
+metallic = 0.1
+roughness = 0.5
+metadata/_gltf_primary_texture_coord = 0

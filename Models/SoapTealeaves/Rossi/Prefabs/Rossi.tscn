@@ -1,0 +1,5 @@
+[gd_scene format=3 uid="uid://bmdk0l2qik8wg"]
+
+[ext_resource type="PackedScene" uid="uid://ctfgony61mn22" path="res://Models/SoapTealeaves/Rossi/Rossi.gltf" id="1_xaotb"]
+
+[node name="Rossi" unique_id=114461231 instance=ExtResource("1_xaotb")]

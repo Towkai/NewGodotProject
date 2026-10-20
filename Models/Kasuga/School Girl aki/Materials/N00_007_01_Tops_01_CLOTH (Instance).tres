@@ -1,0 +1,10 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://ck3eegdaihivu"]
+
+[ext_resource type="Texture2D" uid="uid://dvlvhd2oxdpo8" path="res://Modles/Kasuga/School Girl aki/FBX/Aki.fbm/_14.png" id="1_kgu4q"]
+
+[resource]
+resource_name = "N00_007_01_Tops_01_CLOTH (Instance)"
+transparency = 4
+vertex_color_use_as_albedo = true
+albedo_texture = ExtResource("1_kgu4q")
+emission_enabled = true

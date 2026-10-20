@@ -1,0 +1,31 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://c2bwpa6ov18hi"]
+
+[ext_resource type="Shader" uid="uid://c0d673cuvjdhr" path="res://Shaders/[odin_valhalla_rising]_priest___magic_parade.gdshader" id="1_ro3qh"]
+[ext_resource type="Texture2D" uid="uid://bb18jr2exdoyd" path="res://Modles/knightmare-giga/Priest - Magic Parade/Textures_modified/Cloth/Cloth_col.png" id="2_cfgen"]
+[ext_resource type="Texture2D" uid="uid://hyybsik1p7xd" path="res://Modles/knightmare-giga/Priest - Magic Parade/Textures_modified/Cloth/Cloth_nrml.png" id="3_mjs8w"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_ro3qh")
+shader_parameter/albedo_color = Color(1, 1, 1, 1)
+shader_parameter/albedo_texture = ExtResource("2_cfgen")
+shader_parameter/use_stepped = true
+shader_parameter/steps = 3.0
+shader_parameter/step_smoothness = 0.3
+shader_parameter/shadow_tint = Color(0, 0, 0, 1)
+shader_parameter/shadow_tint_amount = 0.4
+shader_parameter/specular = 0.0
+shader_parameter/normal_strength = 1.0
+shader_parameter/normal_texture = ExtResource("3_mjs8w")
+shader_parameter/use_rim = true
+shader_parameter/rim_color = Color(1, 1, 1, 1)
+shader_parameter/rim_amount = 2.0
+shader_parameter/rim_smoothness = 0.2
+shader_parameter/rim_mask_shadow = 1.0
+shader_parameter/rim_blend = 1.0
+shader_parameter/use_pattern = true
+shader_parameter/pattern_uv_mode = 2
+shader_parameter/pattern_tiling = 32.0
+shader_parameter/pattern_amount = 0.5
+shader_parameter/pattern_smoothness = 0.5
+shader_parameter/pattern_blend = 0.2

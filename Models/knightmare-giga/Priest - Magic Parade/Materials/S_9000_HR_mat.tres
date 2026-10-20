@@ -1,0 +1,18 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://b0ac30iuj1he7"]
+
+[ext_resource type="Texture2D" uid="uid://ctngayv3btw5n" path="res://Modles/Priest - Magic Parade/GLTF/Hair_col-Hair_alpha.png" id="1_1amwi"]
+[ext_resource type="Texture2D" uid="uid://bf2acckuwcxfd" path="res://Modles/Priest - Magic Parade/GLTF/Hair_mtl-Hair_rough.png" id="2_4v8cs"]
+[ext_resource type="Texture2D" uid="uid://carw1pfaikku2" path="res://Modles/Priest - Magic Parade/GLTF/Hair_nrml.png" id="3_ubmnb"]
+
+[resource]
+resource_name = "S_9000_HR_mat"
+transparency = 4
+albedo_texture = ExtResource("1_1amwi")
+metallic = 1.0
+metallic_texture = ExtResource("2_4v8cs")
+metallic_texture_channel = 2
+roughness_texture = ExtResource("2_4v8cs")
+roughness_texture_channel = 1
+normal_enabled = true
+normal_texture = ExtResource("3_ubmnb")
+metadata/_gltf_primary_texture_coord = 0

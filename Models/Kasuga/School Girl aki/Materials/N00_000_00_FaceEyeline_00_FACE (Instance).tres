@@ -1,0 +1,10 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://d1abnrealiee0"]
+
+[ext_resource type="Texture2D" uid="uid://cl3f1twvaqtxi" path="res://Modles/Kasuga/School Girl aki/FBX/Aki.fbm/_09.png" id="1_wxl8d"]
+
+[resource]
+resource_name = "N00_000_00_FaceEyeline_00_FACE (Instance)"
+transparency = 4
+vertex_color_use_as_albedo = true
+albedo_texture = ExtResource("1_wxl8d")
+emission_enabled = true

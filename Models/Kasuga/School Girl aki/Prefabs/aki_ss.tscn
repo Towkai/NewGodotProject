@@ -1,0 +1,5 @@
+[gd_scene format=3 uid="uid://dcf1gu3rlmlr1"]
+
+[ext_resource type="PackedScene" uid="uid://dlqhpps437pll" path="res://Modles/Kasuga/School Girl aki/GLTF/aki_ss.gltf" id="1_sw1kk"]
+
+[node name="aki_ss" unique_id=673939531 instance=ExtResource("1_sw1kk")]

@@ -1,0 +1,9 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://bcm1ayn01gj8r"]
+
+[ext_resource type="Texture2D" uid="uid://bxoqi4p08fuva" path="res://Modles/Kasuga/School Girl aki/FBX/Aki.fbm/_04.png" id="1_j7dgu"]
+
+[resource]
+resource_name = "N00_000_00_Face_00_SKIN (Instance)"
+vertex_color_use_as_albedo = true
+albedo_texture = ExtResource("1_j7dgu")
+emission_enabled = true

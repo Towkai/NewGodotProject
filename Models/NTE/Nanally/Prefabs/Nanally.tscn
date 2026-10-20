@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://dxrtj6avmdi6v"]
+
+[ext_resource type="PackedScene" uid="uid://c83jtgq635fiq" path="res://Models/NTE/Nanally/Nanally.gltf" id="1_5t2o5"]
+
+[node name="Nanally" unique_id=1871896579 instance=ExtResource("1_5t2o5")]
+
+[node name="娜娜莉1_0_mesh" parent="娜娜莉1_0/娜娜莉1_0_arm/Skeleton3D" parent_id_path=PackedInt32Array(2003368878) index="0" unique_id=485224003]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.024848923, -0.0004284382, 0)

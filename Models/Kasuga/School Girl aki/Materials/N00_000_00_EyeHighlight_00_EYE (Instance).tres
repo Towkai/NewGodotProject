@@ -1,0 +1,10 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://bnyp1k2rkps67"]
+
+[ext_resource type="Texture2D" uid="uid://cn6cy1vi0ejjg" path="res://Modles/Kasuga/School Girl aki/FBX/Aki.fbm/_03.png" id="1_uc7bg"]
+
+[resource]
+resource_name = "N00_000_00_EyeHighlight_00_EYE (Instance)"
+transparency = 4
+vertex_color_use_as_albedo = true
+albedo_texture = ExtResource("1_uc7bg")
+emission_enabled = true

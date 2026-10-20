@@ -1,0 +1,10 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://cbm34m3d1jkt2"]
+
+[ext_resource type="Texture2D" uid="uid://ct0qic17fnp40" path="res://Modles/Kasuga/School Girl aki/FBX/Aki.fbm/_13.png" id="1_akgsn"]
+
+[resource]
+resource_name = "N00_000_00_HairBack_00_HAIR (Instance)"
+transparency = 4
+vertex_color_use_as_albedo = true
+albedo_texture = ExtResource("1_akgsn")
+emission_enabled = true

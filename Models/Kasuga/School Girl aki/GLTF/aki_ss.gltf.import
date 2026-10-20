@@ -1,0 +1,118 @@
+[remap]
+
+importer="scene"
+importer_version=1
+type="PackedScene"
+uid="uid://dlqhpps437pll"
+path="res://.godot/imported/aki_ss.gltf-33f4187e2a31ef235d3a94a587d170e4.scn"
+
+[deps]
+
+source_file="res://Models/Kasuga/School Girl aki/GLTF/aki_ss.gltf"
+dest_files=["res://.godot/imported/aki_ss.gltf-33f4187e2a31ef235d3a94a587d170e4.scn"]
+
+[params]
+
+nodes/root_type=""
+nodes/root_name=""
+nodes/root_script=null
+mesh_library/use_node_names_as_mesh_names=false
+array_mesh/deduplicate_surfaces=true
+nodes/apply_root_scale=true
+nodes/root_scale=1.0
+nodes/import_as_skeleton_bones=false
+nodes/use_name_suffixes=true
+nodes/use_node_type_suffixes=true
+meshes/ensure_tangents=true
+meshes/generate_lods=true
+meshes/create_shadow_meshes=true
+meshes/light_baking=1
+meshes/lightmap_texel_size=0.2
+meshes/force_disable_compression=false
+skins/use_named_skins=true
+animation/import=true
+animation/fps=30
+animation/trimming=false
+animation/remove_immutable_tracks=true
+animation/import_rest_as_RESET=false
+import_script/path=""
+materials/extract=0
+materials/extract_format=0
+materials/extract_path=""
+_subresources={
+"materials": {
+"N00_000_00_Body_00_SKIN (Instance)": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Models/Kasuga/School Girl aki/Materials/N00_000_00_Body_00_SKIN (Instance).tres",
+"use_external/path": "uid://b6mvjqga1w7kh"
+},
+"N00_000_00_EyeHighlight_00_EYE (Instance)": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Models/Kasuga/School Girl aki/Materials/N00_000_00_EyeHighlight_00_EYE (Instance).tres",
+"use_external/path": "uid://bnyp1k2rkps67"
+},
+"N00_000_00_EyeIris_00_EYE (Instance)": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Models/Kasuga/School Girl aki/Materials/N00_000_00_EyeIris_00_EYE (Instance).tres",
+"use_external/path": "uid://bmtil4awd8r0q"
+},
+"N00_000_00_EyeWhite_00_EYE (Instance)": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Models/Kasuga/School Girl aki/Materials/N00_000_00_EyeWhite_00_EYE (Instance).tres",
+"use_external/path": "uid://kdi51gafq4vj"
+},
+"N00_000_00_FaceBrow_00_FACE (Instance)": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Models/Kasuga/School Girl aki/Materials/N00_000_00_FaceBrow_00_FACE (Instance).tres",
+"use_external/path": "uid://i6durlp8kwk3"
+},
+"N00_000_00_FaceEyeline_00_FACE (Instance)": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Models/Kasuga/School Girl aki/Materials/N00_000_00_FaceEyeline_00_FACE (Instance).tres",
+"use_external/path": "uid://d1abnrealiee0"
+},
+"N00_000_00_FaceMouth_00_FACE (Instance)": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Models/Kasuga/School Girl aki/Materials/N00_000_00_FaceMouth_00_FACE (Instance).tres",
+"use_external/path": "uid://b3jkn1y8oxr85"
+},
+"N00_000_00_Face_00_SKIN (Instance)": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Models/Kasuga/School Girl aki/Materials/N00_000_00_Face_00_SKIN (Instance).tres",
+"use_external/path": "uid://bcm1ayn01gj8r"
+},
+"N00_000_00_HairBack_00_HAIR (Instance)": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Models/Kasuga/School Girl aki/Materials/N00_000_00_HairBack_00_HAIR (Instance).tres",
+"use_external/path": "uid://cbm34m3d1jkt2"
+},
+"N00_000_Hair_00_HAIR (Instance)": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Models/Kasuga/School Girl aki/Materials/N00_000_Hair_00_HAIR (Instance).tres",
+"use_external/path": "uid://2m7ws8v4mgqm"
+},
+"N00_001_03_Bottoms_01_CLOTH (Instance)": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Models/Kasuga/School Girl aki/Materials/N00_001_03_Bottoms_01_CLOTH (Instance).tres",
+"use_external/path": "uid://8xdan2bs1fyt"
+},
+"N00_002_01_Shoes_01_CLOTH (Instance)": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Models/Kasuga/School Girl aki/Materials/N00_002_01_Shoes_01_CLOTH (Instance).tres",
+"use_external/path": "uid://bwqd73abmrhyd"
+},
+"N00_003_01_Shoes_01_CLOTH (Instance)": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Models/Kasuga/School Girl aki/Materials/N00_003_01_Shoes_01_CLOTH (Instance).tres",
+"use_external/path": "uid://dvlst1rwtj2ni"
+},
+"N00_007_01_Tops_01_CLOTH (Instance)": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Models/Kasuga/School Girl aki/Materials/N00_007_01_Tops_01_CLOTH (Instance).tres",
+"use_external/path": "uid://ck3eegdaihivu"
+}
+}
+}
+gltf/naming_version=2
+gltf/embedded_image_handling=1
+gltf/texture_map_mode=1

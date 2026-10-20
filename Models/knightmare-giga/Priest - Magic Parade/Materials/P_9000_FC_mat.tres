@@ -1,0 +1,17 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://whw2rru5rn2h"]
+
+[ext_resource type="Texture2D" uid="uid://d3k0yv7ycbrpj" path="res://Modles/Priest - Magic Parade/GLTF/Face_col.png" id="1_kdyfy"]
+[ext_resource type="Texture2D" uid="uid://dyaepqipwhbo3" path="res://Modles/Priest - Magic Parade/GLTF/Face_mtl-Face_rough.png" id="2_qw8qt"]
+[ext_resource type="Texture2D" uid="uid://biamege20wtqb" path="res://Modles/Priest - Magic Parade/GLTF/Face_nrml.png" id="3_t6wmh"]
+
+[resource]
+resource_name = "P_9000_FC_mat"
+albedo_texture = ExtResource("1_kdyfy")
+metallic = 1.0
+metallic_texture = ExtResource("2_qw8qt")
+metallic_texture_channel = 2
+roughness_texture = ExtResource("2_qw8qt")
+roughness_texture_channel = 1
+normal_enabled = true
+normal_texture = ExtResource("3_t6wmh")
+metadata/_gltf_primary_texture_coord = 0

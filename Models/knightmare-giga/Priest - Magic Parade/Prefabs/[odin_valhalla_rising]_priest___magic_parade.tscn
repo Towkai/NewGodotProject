@@ -1,0 +1,32 @@
+[gd_scene format=3 uid="uid://dbyrwwplk2djx"]
+
+[ext_resource type="PackedScene" uid="uid://n1c0xgh8yuvj" path="res://Modles/knightmare-giga/Priest - Magic Parade/GLTF/[Odin Valhalla Rising] Priest - Magic Parade.gltf" id="1_5wbri"]
+[ext_resource type="Material" uid="uid://cl1merks0l7d3" path="res://Modles/knightmare-giga/Priest - Magic Parade/Materials/P_9009_BD_mat.tres" id="2_me7vw"]
+[ext_resource type="Material" uid="uid://dor3qrkftcxce" path="res://Modles/knightmare-giga/Priest - Magic Parade/Materials/P_9009_CL_mat.tres" id="3_spi7t"]
+[ext_resource type="Material" uid="uid://bfjf2uoh0cjp2" path="res://Modles/knightmare-giga/Priest - Magic Parade/Materials/P_9000_eyeshade_mat.tres" id="4_b6c8p"]
+[ext_resource type="Material" uid="uid://whw2rru5rn2h" path="res://Modles/knightmare-giga/Priest - Magic Parade/Materials/P_9000_FC_mat.tres" id="5_5et8l"]
+[ext_resource type="Material" uid="uid://b0ac30iuj1he7" path="res://Modles/knightmare-giga/Priest - Magic Parade/Materials/S_9000_HR_mat.tres" id="6_bbyb7"]
+[ext_resource type="Material" uid="uid://c24fm18ayjvyi" path="res://Modles/knightmare-giga/Priest - Magic Parade/Materials/P_9009_HD_mat.tres" id="7_exrx0"]
+
+[node name="[Odin Valhalla Rising] Priest - Magic Parade" unique_id=547958710 instance=ExtResource("1_5wbri")]
+
+[node name="Body" parent="Armature/Skeleton3D" parent_id_path=PackedInt32Array(1813270444) index="0" unique_id=276388522]
+surface_material_override/0 = ExtResource("2_me7vw")
+
+[node name="Cloth" parent="Armature/Skeleton3D" parent_id_path=PackedInt32Array(1813270444) index="1" unique_id=488428487]
+surface_material_override/0 = ExtResource("3_spi7t")
+
+[node name="Eyeshade" parent="Armature/Skeleton3D" parent_id_path=PackedInt32Array(1813270444) index="2" unique_id=326735718]
+surface_material_override/0 = ExtResource("4_b6c8p")
+
+[node name="Face" parent="Armature/Skeleton3D" parent_id_path=PackedInt32Array(1813270444) index="3" unique_id=1520619497]
+surface_material_override/0 = ExtResource("5_5et8l")
+
+[node name="Hair" parent="Armature/Skeleton3D" parent_id_path=PackedInt32Array(1813270444) index="4" unique_id=1958035295]
+surface_material_override/0 = ExtResource("6_bbyb7")
+
+[node name="Head" parent="Armature/Skeleton3D" parent_id_path=PackedInt32Array(1813270444) index="5" unique_id=1076434634]
+surface_material_override/0 = ExtResource("7_exrx0")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." index="1" unique_id=959264252]
+transform = Transform3D(0.25038, 0, -0.96814764, 0, 1, 0, 0.96814764, 0, 0.25038, 0, 0, 0)
