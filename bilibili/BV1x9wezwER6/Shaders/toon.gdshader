@@ -10,12 +10,15 @@ group_uniforms;
 
 group_uniforms shadow;
 uniform float shadow_offset: hint_range(.0, 1.0) = .5;
+uniform float shadow_smooth: hint_range(.001, 1.0) = .01;
+uniform float normal_influence: hint_range(.0, 1.0) = 1.0;
 uniform float shadow_color_mix: hint_range(.0, 1.0) = .5;
 uniform vec3 shadow_color: source_color = vec3(.0);
 group_uniforms; // 結束 group 區籤
 
 float lambert_shadow(vec3 normal, vec3 light, float attenuation) {
-	return clamp(dot(normal, light) * attenuation, .0, 1.0);
+	float normal_light = mix(1.0, dot(normal, light), normal_influence);
+	return clamp(normal_light * attenuation / shadow_smooth - shadow_offset, .0, 1.0);
 }
 
 void vertex() {

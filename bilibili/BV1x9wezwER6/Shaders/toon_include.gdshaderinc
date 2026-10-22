@@ -30,7 +30,12 @@ void fragment() {
 }
 
 void light() {
+    
+#ifdef USE_FACE_SDF
+    float shadow;
+#else
     float shadow = lambert_shadow(NORMAL, LIGHT, ATTENUATION);
+#endif
 
     // 1. 計算出條件權重：當 shadow > 0.5 時為 1.0，否則為 0.0
     float is_bright = step(shadow_offset, shadow);
